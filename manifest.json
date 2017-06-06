@@ -1,0 +1,17 @@
+{
+  "name": "Github Extension",
+  "version": "1",
+  "browser_action":
+  {
+    "default_icon": "icon.png"
+  },
+  "background":
+  {
+    "page": "index.html"
+  },
+  "background":{
+  "scripts": ["background.js"]
+  },
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
